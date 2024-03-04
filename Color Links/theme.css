@@ -1,0 +1,95 @@
+/**
+ * @name Color Links
+ * @version 1.0
+ * @description Add link color for some link in Discord
+ * @author sangsisreal
+ * @source https://github.com/sang765/vencord-css-snippets
+ * @website https://sang765.github.io/vencord-css-snippets
+ */
+
+/* colored links */
+/* YouTube */
+[href*="youtu.be"],
+[href*="youtube.com"] {
+  color: #c4302b !important;
+}
+/* Twitch */
+[href*="twitch.tv"] {
+  color: #b700ff !important;
+}
+/* Discord */
+[href*="discord.com/channels/"] {
+  color: #7289da !important;
+}
+[href*="discord.com/channels/"]::before {
+  color: #603cff;
+}
+[href*="betterdiscord.app/"],
+[href*="discord.gg/"],
+[href*="dsc.gg/"],
+[href*="discord.com/"],
+[href*="media.discordapp.net/"],
+[href*="cdn.discordapp.com/"] {
+  color: #7289da !important;
+}
+/* Twitter */
+[href*="twitter.com/"] {
+  color: #00acee !important;
+}
+/* GitHub */
+[href*="github.com"] {
+  color: #b4b4b4 !important;
+}
+/* Imgur */
+[href*="i.imgur.com"] {
+  color: #89c623 !important;
+}
+/* Steam */
+[href*="store.steampowered.com"],
+[href*="https://s.team"],
+[href*="steamcommunity.com/"] {
+  color: #1b2838 !important;
+}
+/* Spotify */
+[href*="spotify.com"],
+[href*="open.spotify.com"] {
+  color: #13b94a !important;
+}
+/* SoundCloud */
+[href*="soundcloud.com"] {
+  color: #ff5500 !important;
+}
+/* Top.gg */
+[href*="top.gg"] {
+  color: #ff3366 !important;
+}
+/* Telegram */
+[href*="web.telegram.org"],
+[href*="telegram.org"],
+[href*="t.me"] {
+  color: #31a6e1 !important;
+}
+/* Instagram */
+[href*="instagram.com"] {
+  color: #125688!important;
+}
+/* Reddit */
+[href*="reddit.com"] {
+  color: #ff4500!important;
+}
+/* Patreon */
+[href*="patreon.com"] {
+  color: #ff6600!important;
+}
+/* Facebook */
+[href*="facebook.com"] {
+  color: #3b5998!important;
+}
+/* Danbooru */
+[href*="danbooru.donmai.us"] {
+  color: #e6b18e!important;
+}
+/* DevaviantArt */
+[href*="deviantart.com"] {
+  color: #00e59b!important;
+}
