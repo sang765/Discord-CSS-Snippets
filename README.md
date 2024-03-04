@@ -1,2 +1,2 @@
 # vencord-css-snippets
-My Discord CSS Snippet
+List for my CSS:
