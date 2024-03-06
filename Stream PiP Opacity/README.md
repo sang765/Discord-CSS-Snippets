@@ -3,7 +3,7 @@
 
 
 ## Preview:
-
+https://github.com/sang765/Discord-CSS-Snippets/assets/80249864/8fd41a55-92df-47a3-be62-b21af59bc4c2
 
 ## CSS Code:
 ```css
