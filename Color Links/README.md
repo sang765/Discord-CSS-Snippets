@@ -40,6 +40,7 @@ Added some color link for Discord
   color: #b4b4b4 !important;
 }
 /* Imgur */
+[href*="imgur.com"],
 [href*="i.imgur.com"] {
   color: #89c623 !important;
 }
