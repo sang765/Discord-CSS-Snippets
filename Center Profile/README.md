@@ -1,0 +1,49 @@
+## Center Profile
+- Margin your profile to center
+
+
+## Preview:
+https://github.com/sang765/Discord-CSS-Snippets/assets/80249864/8fd41a55-92df-47a3-be62-b21af59bc4c2
+
+## CSS Code:
+```css
+/* Center Profile */
+[class^="UserProfile_"] {
+  text-align: center;
+}
+.usernameSection__53868, .u1370__discriminator {
+  margin-left: auto;
+  margin-right: auto;
+}
+#profile-customization-tab > div:nth-child(4) > div > div > div.u.u1219.u1219__customizationSection.customizationSection__16fec.u.u1220.u1220__preview.preview__0c5fe > div > div > div.UserProfile__userPopoutOverlayBackground.userPopoutOverlayBackground_d8afa4.UserProfile__overlayBackground.overlayBackground__86b78.u.u1218.u1218__body.body_aa2c19 > div.UserProfileSection__section.section__6f61e.u.u336.u336__container.container__22d2b > div {
+  margin: auto;
+}
+.nameTag__7814f .discriminator_a801dd {
+  margin: auto;
+}
+#profile-customization-tab > div:nth-child(6) > div > div > div.u.u1219.u1219__customizationSection.customizationSection__16fec.u.u1220.u1220__preview.preview__0c5fe > div > div > div.UserProfile__userPopoutOverlayBackground.userPopoutOverlayBackground_d8afa4.UserProfile__overlayBackground.overlayBackground__86b78.u.u1218.u1218__body.body_aa2c19 > div.UserProfileSection__section.section__6f61e.u.u336.u336__container.container__22d2b > div {
+  margin: auto;
+}
+[class^="UserProfileSection_"] {
+  margin: auto;
+}
+.u293.u293.u293.u293 {
+  margin: revert;
+}
+.UserProfileSection__section.section__6f61e > div {
+  justify-content: center;
+}
+.eyebrow_f53856 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TextProps__defaultColor.defaultColor__37d78.TextStyle__text-sm\/normal.text-sm-normal_e612c7.u.u1349.u1349__userInfoText.userInfoText__5f822[data-text-variant="text-sm/normal"] {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 10px;
+}
+```
