@@ -41,12 +41,15 @@
   justify-content: center;
   align-items: center;
 }
-.TextProps__defaultColor.defaultColor__37d78.TextStyle__text-sm\/normal.text-sm-normal_e612c7.u.u1349.u1349__userInfoText.userInfoText__5f822[data-text-variant="text-sm/normal"] {
-  display: flex;
-  justify-content: center;
-  flex-wrap: nowrap;
-  align-items: center;
+.userInfoText__5f822[data-text-variant="text-sm/normal"]{
   margin: auto;
   margin-bottom: 10px;
+}
+.tabBar__35f81 {
+    align-items: center;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-direction: row;
 }
 ```
