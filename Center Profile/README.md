@@ -3,7 +3,10 @@
 
 
 ## Preview:
-https://github.com/sang765/Discord-CSS-Snippets/assets/80249864/8fd41a55-92df-47a3-be62-b21af59bc4c2
+![image](https://github.com/sang765/Discord-CSS-Snippets/assets/80249864/c42f72ed-b98c-46d5-9a8b-fdf699983d57)
+![image](https://github.com/sang765/Discord-CSS-Snippets/assets/80249864/562fb6d7-2715-4551-a967-2cad935d5c5f)
+
+
 
 ## CSS Code:
 ```css
