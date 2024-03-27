@@ -52,4 +52,10 @@
     justify-content: center;
     flex-direction: row;
 }
+.note_ba0c31 .textarea_c5a7a3 {
+  text-align: center;
+}
+.note__7a4f4 textarea {
+  text-align: center;
+}
 ```
