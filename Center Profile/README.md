@@ -77,4 +77,7 @@
 .nameTag_fdddf8 .discriminator__9d9f2 {
   margin: auto;
 }
+div.UserProfileSection__section.section__62b44 > div {
+    justify-content: center;
+}
 ```
