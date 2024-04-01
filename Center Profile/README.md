@@ -80,5 +80,7 @@
 div.UserProfileSection__section.section__62b44 > div {
     justify-content: center !important;
 }
-
+.activityProfileV2_f5335f .details_e26997 {
+    width: 300px;
+}
 ```
