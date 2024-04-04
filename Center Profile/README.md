@@ -12,7 +12,7 @@
 ```css
 /* Center Profile */
 [class^="UserProfile_"] {
-    text-align: center;
+  text-align: center;
 }
 .nameTagSmall__6459e,
 .title__392bc,
@@ -22,17 +22,18 @@ div.UserProfileSection__section.section__62b44 > div,
 .guildNick_d76c11,
 .connectedAccountNameTextContainer_e6ac0d,
 .connectedAccountChildren_abff48 {
-    justify-content: center;
+  justify-content: center;
 }
-.userInfoText_b87307 {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    margin-bottom: 10px;
+.userInfoText_b87307,
+.profileMutuals__95dc2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 10px;
 }
-.note__7a4f4 textarea,
-textarea.u.u331.u331__textarea.textarea__0461c.u.u32.u32__inputDefault.inputDefault__22335.u.u32.u32__input.input_f27786.Scrollbar__scrollbarGhostHairline.scrollbarGhostHairline__00100.Scrollbar__scrollbar.scrollbar_b61b2b {
-    text-align: center;
+.note__7a4f4 textarea {
+  text-align: center;
 }
 /* Fix Activity */
 .body__3620e {

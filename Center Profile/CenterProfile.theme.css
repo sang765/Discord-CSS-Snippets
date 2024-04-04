@@ -1,5 +1,5 @@
 /**
- * @name Center Profile
+ * @name Addon: Center Profile
  * @version 1.0
  * @description Margin your profile to center
  * @author sangsisreal
@@ -21,14 +21,15 @@ div.UserProfileSection__section.section__62b44 > div,
 .connectedAccountChildren_abff48 {
   justify-content: center;
 }
-.userInfoText_b87307 {
+.userInfoText_b87307,
+.profileMutuals__95dc2 {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: auto;
   margin-bottom: 10px;
 }
-.note__7a4f4 textarea,
-textarea.u.u331.u331__textarea.textarea__0461c.u.u32.u32__inputDefault.inputDefault__22335.u.u32.u32__input.input_f27786.Scrollbar__scrollbarGhostHairline.scrollbarGhostHairline__00100.Scrollbar__scrollbar.scrollbar_b61b2b {
+.note__7a4f4 textarea {
   text-align: center;
 }
 /* Fix Activity */
