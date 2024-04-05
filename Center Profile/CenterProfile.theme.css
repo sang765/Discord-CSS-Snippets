@@ -37,7 +37,7 @@ div.TextProps__defaultColor.defaultColor__30336.TextStyle__text-lg\/semibold.tex
 .textarea__0461c {
   text-align: center;
 }
-/* Fix Activity */
-.body__3620e {
-  max-width: 410px;
+/* Hide Copy Username Button */
+.clickTarget__90fb4 > div > div:nth-child(2) {
+  display: none;
 }
