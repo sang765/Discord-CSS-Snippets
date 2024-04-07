@@ -24,6 +24,9 @@
 [class*="connectedAccountChildren_"] {
   justify-content: center;
 }
+[class*="textLeft_"] {
+  display: flex;
+}
 div.TextProps__defaultColor.defaultColor__30336.TextStyle__text-lg\/semibold.text-lg-semibold__9539a {
   margin-right: 0px !important;
 }
