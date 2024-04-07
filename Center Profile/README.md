@@ -51,4 +51,8 @@ div.TextProps__defaultColor.defaultColor__30336.TextStyle__text-lg\/semibold.tex
 [class*="ThreadStarterMessage_"] {
   justify-content: left !important;
 }
+/* Member list Center by Center Profile fix */
+.Members__container.container_f79ab4 {
+  justify-content: left;
+}
 ```
