@@ -9,12 +9,10 @@
 
 ## CSS Code:
 ```css
-/* Username, Memberlist and Nickname Glow */
-.username_d272d6,
-.username_d30d99,
-.nickname__3d1d7,
-.text-lg-semibold__18f10,
-.mention {
+[class*="username_"],
+[class*="nickname_"],
+[class*="text-lg-semibold_"],
+[class*="mention"] {
   text-shadow: 0px 0px 0px currentColor;
   animation: glow 1s ease-in-out infinite alternate;
 }
@@ -26,4 +24,5 @@
 	text-shadow: 0px 0px 5px currentColor, 0px 0px 10px currentColor, 0px 0px 15px currentColor;
  }
 }
+/* You can custom size shadow to changed the px */
 ```
