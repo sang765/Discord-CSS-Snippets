@@ -44,4 +44,8 @@ div.TextProps__defaultColor.defaultColor__30336.TextStyle__text-lg\/semibold.tex
 [class*="clickTarget_"] > div > div:nth-child(2) {
     display: none;
 }
+/* Fix Welcome New Member Message To Center*/
+[class*="ThreadStarterMessage_"] {
+  justify-content: left !important;
+}
 ```
