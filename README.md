@@ -12,3 +12,6 @@
 
 [Center Profile](https://github.com/sang765/Discord-CSS-Snippets/tree/main/Center%20Profile)
  - Margin your profile to center
+
+[Badge Scale Aniamtion](https://github.com/sang765/Discord-CSS-Snippets/tree/main/Badge%20Scale%20Animation)
+ - Add animation for your badges
