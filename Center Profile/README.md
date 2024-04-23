@@ -38,11 +38,14 @@ textarea.textarea__0461c.inputDefault__22335.input_f27786.scrollbarGhostHairline
 .container__9f51c {
     align-self: center;
 }
-.defaultColor__30336.text-lg-semibold__9539a {
+.defaultColor__30336.text-lg-semibold__9539a,
+h1.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e.header__9af10,
+.userInfoText_b87307 {
     margin-right: 0px !important;
     text-align: center;
 }
-.info__40462.nameTag_fdddf8.nameTagSmall__6459e {
+.info__40462.nameTag_fdddf8.nameTagSmall__6459e,
+.root_a99273.roles__74a2b /* Vencord Profile Prems */ {
     justify-content: center;
 }
 .defaultColor__30336.text-sm-normal__95a78.pronouns__3d468.nameTagSmall__6459e,
@@ -63,6 +66,6 @@ h2.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e,
 }
 /* Hide Copy Username Button */
 [class*="clickTarget_"] > div > div:nth-child(2) {
-    display: none;
+  display: none;
 }
 ```
