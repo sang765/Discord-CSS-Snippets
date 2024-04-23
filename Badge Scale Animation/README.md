@@ -3,7 +3,7 @@
 
 
 ## Preview:
-<img src="[assets/Discord_r3ovjmXoWy.gif](https://raw.githubusercontent.com/sang765/Discord-CSS-Snippets/main/assets/Discord_r3ovjmXoWy.gif)" alt="Preview">
+![image](https://raw.githubusercontent.com/sang765/Discord-CSS-Snippets/main/assets/Discord_r3ovjmXoWy.gif)
 
 
 
