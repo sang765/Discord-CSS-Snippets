@@ -19,10 +19,12 @@
 .vc-platform-indicator:hover {
   scale: 1.3;
 }
-/* Fix Embed Scale */
+/* Fix Scale */
 [class*="embedTitle_"],
 [class*="embedAuthorName_"],
-[class*="downloadLink_"] {
+[class*="downloadLink_"],
+[class*="hoverButton_"],
+[class^="anchor_"] {
   scale: 1 !important;
 }
 ```
