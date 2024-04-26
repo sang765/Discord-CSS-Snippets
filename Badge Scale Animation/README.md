@@ -24,7 +24,8 @@
 [class*="embedAuthorName_"],
 [class*="downloadLink_"],
 [class*="hoverButton_"],
-[class^="anchor_"] {
+[class^="anchor_"],
+[class*="anchorUnderlineOnHover_"] {
   scale: 1 !important;
 }
 ```
