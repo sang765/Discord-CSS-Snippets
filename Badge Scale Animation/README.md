@@ -17,6 +17,6 @@ a.anchor_c8ddc0.anchorUnderlineOnHover__03b72 > img.profileBadge22_e4866d.profil
 }
 a.anchor_c8ddc0.anchorUnderlineOnHover__03b72:hover > img.profileBadge22_e4866d.profileBadge__3cc69,
 .vc-platform-indicator:hover {
-  scale: 1.3;
+  scale: 1.25;
 }
 ```
