@@ -10,20 +10,13 @@
 ## CSS Code:
 ```css
 /* Badge Scale Animation */
-[class*="anchorUnderlineOnHover"],
+a.anchor_c8ddc0.anchorUnderlineOnHover__03b72,
 .vc-platform-indicator /*Vencord Platfrom Badge*/{
   scale: 1;
   transition: all 0.5s;
 }
-[class*="anchorUnderlineOnHover"]:hover,
+a.anchor_c8ddc0.anchorUnderlineOnHover__03b72:hover,
 .vc-platform-indicator:hover {
   scale: 1.3;
-}
-/* Fix Scale */
-[class*="embedTitle_"],
-[class*="embedAuthorName_"],
-[class*="downloadLink_"],
-[class*="hoverButton_"] {
-  scale: 1 !important;
 }
 ```
