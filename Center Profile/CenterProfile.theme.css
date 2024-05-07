@@ -22,12 +22,12 @@ ul.popularApplicationCommandsList__0eb68,
     justify-content: center;
     text-align: center;
 }
-.section__62b44 > div,
+.section__62b44>div,
 .u.u345.u345__root.root_a99273.u.u346.u346__roles.roles__74a2b,
 .memberSinceWrapper__03059 {
     justify-content: center;
 }
-.defaultColor__30336.lineClamp2Plus_ccc883.text-sm-normal__95a78,
+.lineClamp2Plus_ccc883.text-sm-normal__95a78,
 textarea.textarea__0461c.inputDefault__22335.input_f27786.scrollbarGhostHairline__00100.scrollbar_b61b2b {
     text-align: center;
 }
@@ -42,7 +42,9 @@ h1.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e.header__9af10,
     text-align: center;
 }
 .info__40462.nameTag_fdddf8.nameTagSmall__6459e,
-.root_a99273.roles__74a2b /* Vencord Profile Prems */ {
+.root_a99273.roles__74a2b
+/* Vencord Profile Prems */
+    {
     justify-content: center;
 }
 .defaultColor__30336.text-sm-normal__95a78.pronouns__3d468.nameTagSmall__6459e,
@@ -57,11 +59,12 @@ h2.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e,
 }
 /* Profile In DM */
 .section__62b44.container__1c2eb,
-.customStatus__6a31a {
+.customStatus__6a31a,
+.title__392bc {
     justify-content: center;
     text-align: center;
 }
 /* Hide Copy Username Button */
-[class*="clickTarget_"] > div > div:nth-child(2) {
-  display: none;
+[class*="clickTarget_"]>div>div:nth-child(2) {
+    display: none;
 }
