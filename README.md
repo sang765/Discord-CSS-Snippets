@@ -1,4 +1,4 @@
-# Discord CSS Snippets
+# Discord CSS Snippets by HTS765
 ## List for my CSS:
 
 [Name Glow Animation](https://github.com/sang765/vencord-css-snippets/tree/main/NameGlowAnimation)
