@@ -7,6 +7,7 @@
  * @website https://github.com/sang765
  */
 
- [class*="userProfileOuterThemed"] [class*="botTag_"] {
+ /* Bot Tag Sync */
+[class*="userProfileOuterThemed"] [class*="botTag_"] {
   background-color: var(--profile-gradient-button-color);
 }
