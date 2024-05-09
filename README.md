@@ -15,3 +15,6 @@
 
 [Badge Scale Aniamtion](https://github.com/sang765/Discord-CSS-Snippets/tree/main/Badge%20Scale%20Animation)
  - Add animation for your badges
+
+[Bot Tag Sync](https://github.com/sang765/Discord-CSS-Snippets/tree/main/BotTagSync)
+ - Sync Bot Tag Background Color With Activity Button (Only Work With **Profile Theme**)
