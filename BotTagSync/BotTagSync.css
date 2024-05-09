@@ -1,0 +1,12 @@
+/**
+ * @name Addon: Bot Tag Sync
+ * @version 1.0
+ * @description Sync Bot Tag Background Color With Button Activity Background Color (Theme Profile Only)
+ * @author sangsisreal
+ * @source https://github.com/sang765/Discord-CSS-Snippets
+ * @website https://github.com/sang765
+ */
+
+ [class*="userProfileOuterThemed"] [class*="botTag_"] {
+  background-color: var(--profile-gradient-button-color);
+}
