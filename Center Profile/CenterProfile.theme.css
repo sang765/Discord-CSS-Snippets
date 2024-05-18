@@ -68,15 +68,3 @@ h2.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e,
 [class*="clickTarget_"]>div>div:nth-child(2) {
     display: none;
 }
-/* Simplified Profile Experiment */
-.container_df7ce7 .usernameRow__73bf0,
-.body__489bc .root__076be {
-  justify-content: center;
-  gap: 0px;
-}
-.tags__18aee {
-  justify-content: center;
-}
-.container_df7ce7 .container__665d0.badgeList_b6652b {
-  margin: auto;
-}
