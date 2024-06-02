@@ -27,7 +27,7 @@ ul.popularApplicationCommandsList__0eb68,
 }
 .section__62b44>div,
 .u.u345.u345__root.root_a99273.u.u346.u346__roles.roles__74a2b,
-.memberSinceWrapper__03059 {
+.memberSinceWrapper_f76b59 {
     justify-content: center;
 }
 .lineClamp2Plus_ccc883.text-sm-normal__95a78,
