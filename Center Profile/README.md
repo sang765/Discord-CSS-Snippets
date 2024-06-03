@@ -31,7 +31,8 @@ ul.popularApplicationCommandsList__0eb68,
     justify-content: center;
 }
 .userInfoSection_e816c1 .text-sm-normal__95a78,
-textarea.textarea__0461c.inputDefault__22335.input_f27786.scrollbarGhostHairline__00100.scrollbar_b61b2b {
+textarea.textarea__0461c.inputDefault__22335.input_f27786.scrollbarGhostHairline__00100.scrollbar_b61b2b,
+.scroller_f9a667.thin__62e51.scrollerBase__65223 .defaultColor__30336.lineClamp2Plus_ccc883.text-sm-normal__95a78 {
     text-align: center;
 }
 /* User Profile Popup */
