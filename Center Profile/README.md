@@ -68,6 +68,9 @@ h2.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e,
     justify-content: center;
     text-align: center;
 }
+.section__62b44 .text-sm-normal__95a78 {
+    text-align: center;
+}
 /* Hide Copy Username Button */
 [class*="clickTarget_"]>div>div:nth-child(2) {
     display: none;
