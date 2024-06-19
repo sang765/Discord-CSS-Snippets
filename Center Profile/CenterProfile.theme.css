@@ -9,63 +9,63 @@
 
 /* Center Profile */
 /* User Preview */
-.section__62b44.container__1c2eb.usernameSection_dd6196,
-.section__62b44.customStatusSection_c9f9ba,
-h3.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e.title__392bc,
-.headerContainer_b7a30f,
+.section_d7a21f.container_c9ccf6.usernameSection_d2b491,
+.section_d7a21f.customStatusSection_d2b491,
+h3.defaultColor_a595eb.eyebrow_dc00ef.defaultColor_e9e35f.title_c4a579,
+.headerContainer_d5089b,
 .memberSinceContainer__16630,
-h2.defaultColor__30336.eyebrow_b3f8ba,
-ul.popularApplicationCommandsList__0eb68,
-.defaultColor__30336.text-sm-semibold_d260b0.nameWrap_b61c4b.textRow_c835f1,
-.body__323bb {
+h2.defaultColor_a595eb.eyebrow_dc00ef,
+ul.popularApplicationCommandsList_d2db23,
+.defaultColor_a595eb.text-sm-semibold_d260b0.nameWrap_d5089b.textRow_d5089b,
+.body__07791 {
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.section__62b44>div,
-.u.u345.u345__root.root_a99273.u.u346.u346__roles.roles__74a2b,
-.memberSinceWrapper_f76b59 {
+.section_d7a21f>div,
+.u.u345.u345__root.root_e4010c.u.u346.u346__roles.roles_fa2f72,
+.memberSinceWrapper_b06bc5 {
     justify-content: center;
 }
-.userInfoSection_e816c1 .text-sm-normal__95a78,
-textarea.textarea__0461c.inputDefault__22335.input_f27786.scrollbarGhostHairline__00100.scrollbar_b61b2b,
-.section__62b44 .text-sm-normal__95a78 {
+.userInfoSection_a24910 .text-sm-normal__95a78,
+textarea.textarea_dde0a8.inputDefault_f8bc55.input_f8bc55.scrollbarGhostHairline_c858ce.scrollbar_c858ce,
+.section_d7a21f .text-sm-normal__95a78 {
     text-align: center;
 }
 /* User Profile Popup */
-.container__9f51c {
+.container_afed89 {
     align-self: center;
 }
-.defaultColor__30336.text-lg-semibold__9539a,
-h1.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e.header__9af10,
-.userInfoText_b87307 {
+.defaultColor_a595eb.text-lg-semibold__9539a,
+h1.defaultColor_a595eb.eyebrow_dc00ef.defaultColor_e9e35f.header__9af10,
+.userInfoText_a24910 {
     margin-right: 0px !important;
     text-align: center;
 }
-.info__40462.nameTag_fdddf8.nameTagSmall__6459e,
-.root_a99273.roles__74a2b
+.info_e86508.nameTag_afed89.nameTagSmall_afed89,
+.root_e4010c.roles_fa2f72
 /* Vencord Profile Prems */
     {
     justify-content: center;
 }
-.defaultColor__30336.text-sm-normal__95a78.pronouns__3d468.nameTagSmall__6459e,
-.tabBar__35f81.top_fae1fa,
-h1.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e.userInfoSectionHeader_c9f1d3 {
+.defaultColor_a595eb.text-sm-normal__95a78.pronouns_afed89.nameTagSmall_afed89,
+.tabBar_b9fccc.top_a0,
+h1.defaultColor_a595eb.eyebrow_dc00ef.defaultColor_e9e35f.userInfoSectionHeader_a24910 {
     display: flex;
     justify-content: center;
 }
-h2.defaultColor__30336.eyebrow_b3f8ba.defaultColor__8610e,
-.compactItemContainer__55b3e {
+h2.defaultColor_a595eb.eyebrow_dc00ef.defaultColor_e9e35f,
+.compactItemContainer_f005b2 {
     align-self: center;
 }
 /* Profile In DM */
-.section__62b44.container__1c2eb,
-.customStatus__6a31a,
-.title__392bc {
+.section_d7a21f.container_c9ccf6,
+.customStatus_cb55fc,
+.title_c4a579 {
     justify-content: center;
     text-align: center;
 }
-.section__62b44 .text-sm-normal__95a78 {
+.section_d7a21f .text-sm-normal__95a78 {
     text-align: center;
 }
 /* Hide Copy Username Button */
