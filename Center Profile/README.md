@@ -32,7 +32,8 @@ ul.popularApplicationCommandsList_d2db23,
 }
 .userInfoSection_a24910 .text-sm-normal__95a78,
 textarea.textarea_dde0a8.inputDefault_f8bc55.input_f8bc55.scrollbarGhostHairline_c858ce.scrollbar_c858ce,
-.section_d7a21f .text-sm-normal__95a78 {
+.section_d7a21f .text-sm-normal__95a78,
+.scroller_d2b491 .markup_d6076c {
     text-align: center;
 }
 /* User Profile Popup */
@@ -41,7 +42,8 @@ textarea.textarea_dde0a8.inputDefault_f8bc55.input_f8bc55.scrollbarGhostHairline
 }
 .defaultColor_a595eb.text-lg-semibold__9539a,
 h1.defaultColor_a595eb.eyebrow_dc00ef.defaultColor_e9e35f.header__9af10,
-.userInfoText_a24910 {
+.userInfoText_a24910,
+.body_b9fccc .container_afed89 {
     margin-right: 0px !important;
     text-align: center;
 }
