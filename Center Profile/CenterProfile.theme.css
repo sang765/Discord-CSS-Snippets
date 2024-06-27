@@ -45,6 +45,10 @@ h1.defaultColor_a595eb.eyebrow_dc00ef.defaultColor_e9e35f.header__9af10,
     margin-right: 0px !important;
     text-align: center;
 }
+[class^=userProfileModalOuter] [class*=text-sm\/normal_],
+[class^=userProfileModalOuter] [class*=vc-friendssince-title] {
+  text-align: center;
+}
 .info_e86508.nameTag_afed89.nameTagSmall_afed89,
 .root_e4010c.roles_fa2f72
 /* Vencord Profile Prems */
