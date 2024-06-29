@@ -77,4 +77,33 @@ h2.defaultColor_a595eb.eyebrow_dc00ef.defaultColor_e9e35f,
 [class*="clickTarget_"]>div>div:nth-child(2) {
     display: none;
 }
+/* Center Profile On Simplified Profile */
+/* biteSizeOuter */
+[class*=SizeOuter] [class^=usernameRow],
+[class*=SizeOuter] [class^=tags_],
+[class*=SizeOuter] [class^=root_],
+[class*=SizeOuter] [class^=body] [style^=gap],
+[class*=SizeOuter] [class^=mutuals_] {
+  justify-content: center;
+}
+[class*=SizeOuter] [class^=nicknameIcons] {
+  display: none;
+}
+[class*=SizeOuter] [class^=descriptionClamp] {
+  text-align: center;
+}
+[class*=SizeOuter] [class^=viewFullBio] {
+  left: 9.5vh;
+}
+[class*=SizeOuter] [class^=contentImagesBiteSizePopout] [class^=defaultColor_] {
+  text-align: left;
+}
+/* fullSizeOuter */
+[class*=SizeOuter] [class^=tabBar] {
+  justify-content: center;
+}
+[class*=SizeOuter] [class^=markup],
+[class*=SizeOuter] [class*=defaultColor] {
+  text-align: center;
+}
 ```
