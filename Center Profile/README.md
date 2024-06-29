@@ -95,15 +95,14 @@ h2.defaultColor_a595eb.eyebrow_dc00ef.defaultColor_e9e35f,
 [class*=SizeOuter] [class^=viewFullBio] {
   left: 9.5vh;
 }
-[class*=SizeOuter] [class^=contentImagesBiteSizePopout] [class^=defaultColor_] {
-  text-align: left;
-}
 /* fullSizeOuter */
-[class*=SizeOuter] [class^=tabBar] {
+[class*=SizeOuter] [class^=tabBar],
+[class*=SizeOuter] [class^=memberSinceWrapper] {
   justify-content: center;
 }
 [class*=SizeOuter] [class^=markup],
-[class*=SizeOuter] [class*=defaultColor] {
+[class*=SizeOuter] [class^=section] [class*=defaultColor],
+[class*=SizeOuter] textarea {
   text-align: center;
 }
 ```
