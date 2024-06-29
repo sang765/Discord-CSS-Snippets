@@ -105,4 +105,15 @@ h2.defaultColor_a595eb.eyebrow_dc00ef.defaultColor_e9e35f,
 [class*=SizeOuter] textarea {
   text-align: center;
 }
+/* User Panel */ 
+[class^=userPanelOuter] [class^=usernameRow],
+[class^=userPanelOuter] [class^=tags_] {
+  justify-content: center;
+}
+[class^=userPanelOuter] [class^=overlayBackground] [class^=section] {
+  text-align: center;
+}
+[class^=userPanelOuter] [class^=nicknameIcons] {
+  display: none;
+}
 ```
