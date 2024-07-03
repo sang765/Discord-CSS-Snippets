@@ -85,13 +85,15 @@ h2.defaultColor_a595eb.eyebrow_dc00ef.defaultColor_e9e35f,
 [class*=SizeOuter] [class^=tags_],
 [class*=SizeOuter] [class^=root_],
 [class*=SizeOuter] [class^=body] [style^=gap],
-[class*=SizeOuter] [class^=mutuals_] {
+[class*=SizeOuter] [class^=mutuals_],
+[class*=SizeOuter] [class^=container] [class^=buttonContainer] {
   justify-content: center;
 }
 [class*=SizeOuter] [class^=nicknameIcons] {
   display: none;
 }
-[class*=SizeOuter] [class^=descriptionClamp] {
+[class*=SizeOuter] [class^=descriptionClamp],
+[class*=SizeOuter] [class^=container] [class^=defaultColor] {
   text-align: center;
 }
 [class*=SizeOuter] [class^=viewFullBio] {
