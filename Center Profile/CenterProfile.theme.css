@@ -86,24 +86,21 @@ h2.defaultColor_a595eb.eyebrow_dc00ef.defaultColor_e9e35f,
 [class*=SizeOuter] [class^=root_],
 [class*=SizeOuter] [class^=body] [style^=gap],
 [class*=SizeOuter] [class^=mutuals_],
-[class*=SizeOuter] [class^=container] [class^=buttonContainer] {
+[class*=SizeOuter] [class^=container] [class^=buttonContainer],
+[class^=biteSizeOuter_] [class^=activityBiteSizePopout_] [class^=headerContainer_],
+[class^=biteSizeOuter_] [class^=activityBiteSizePopout_] [class^=details_] {
   justify-content: center;
 }
 [class*=SizeOuter] [class^=nicknameIcons] {
   display: none;
 }
 [class*=SizeOuter] [class^=descriptionClamp],
-[class*=SizeOuter] [class^=container] [class^=defaultColor] {
+[class*=SizeOuter] [class^=container] [class^=defaultColor],
+[class^=biteSizeOuter_] [class^=activityBiteSizePopout_] {
   text-align: center;
 }
 [class*=SizeOuter] [class^=viewFullBio] {
   left: 9.5vh;
-}
-[class^=biteSizeOuter_] [class^=activityBiteSizePopout_] {
-  text-align: center;
-}
-[class^=biteSizeOuter_] [class^=activityBiteSizePopout_] [class^=headerContainer_] {
-  justify-content: center;
 }
 /* fullSizeOuter */
 [class*=SizeOuter] [class^=tabBar],
