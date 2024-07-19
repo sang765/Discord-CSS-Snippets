@@ -99,6 +99,12 @@ h2.defaultColor_a595eb.eyebrow_dc00ef.defaultColor_e9e35f,
 [class*=SizeOuter] [class^=viewFullBio] {
   left: 9.5vh;
 }
+[class^=biteSizeOuter_] [class^=activityBiteSizePopout_] {
+  text-align: center;
+}
+[class^=biteSizeOuter_] [class^=activityBiteSizePopout_] [class^=headerContainer_] {
+  justify-content: center;
+}
 /* fullSizeOuter */
 [class*=SizeOuter] [class^=tabBar],
 [class*=SizeOuter] [class^=memberSinceWrapper] {
