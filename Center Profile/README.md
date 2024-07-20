@@ -110,6 +110,9 @@ h2.defaultColor_a595eb.eyebrow_dc00ef.defaultColor_e9e35f,
 [class*=SizeOuter] textarea {
   text-align: center;
 }
+[class^=fullSizeOuter] [class^=activitySimplifiedProfile] [class^=defaultColor] {
+  text-align: left;
+}
 /* User Panel */ 
 [class^=userPanelOuter] [class^=usernameRow],
 [class^=userPanelOuter] [class^=tags_] {
