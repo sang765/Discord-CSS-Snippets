@@ -88,7 +88,8 @@ h2.defaultColor_a595eb.eyebrow_dc00ef.defaultColor_e9e35f,
 [class*=SizeOuter] [class^=mutuals_],
 [class*=SizeOuter] [class^=container] [class^=buttonContainer],
 [class^=biteSizeOuter_] [class^=activityBiteSizePopout_] [class^=headerContainer_],
-[class^=biteSizeOuter_] [class^=activityBiteSizePopout_] [class^=details_] {
+[class^=biteSizeOuter_] [class^=activityBiteSizePopout_] [class^=details_],
+[class*=SizeOuter] [class^=blockquoteContainer]:has([class^=blockquoteDivider]) {
   justify-content: center;
 }
 [class*=SizeOuter] [class^=nicknameIcons] {
