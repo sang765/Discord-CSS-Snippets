@@ -14,6 +14,7 @@
 [class*=SizeOuter] [class^=root_],
 [class*=SizeOuter] [class^=body] [style^=gap],
 [class*=SizeOuter] [class^=mutuals_],
+[class*=SizeOuter] [class^=chipletContainerInner],
 [class*=SizeOuter] [class^=container] [class^=buttonContainer],
 [class^=biteSizeOuter_] [class^=activityBiteSizePopout_] [class^=headerContainer_],
 [class^=biteSizeOuter_] [class^=activityBiteSizePopout_] [class^=details_],
@@ -23,6 +24,9 @@
 }
 [class*=SizeOuter] [class^=nicknameIcons] {
   display: none;
+}
+[class*=SizeOuter] [class^=chipletContainerInner] {
+  display: flex;
 }
 [class*=SizeOuter] [class^=descriptionClamp],
 [class*=SizeOuter] [class^=container] [class^=defaultColor],
