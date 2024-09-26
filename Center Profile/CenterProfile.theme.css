@@ -8,7 +8,6 @@
  */
 
 /* Center Profile On Simplified Profile */
-/* biteSizeOuter */
 [class*=SizeOuter] [class^=usernameRow],
 [class*=SizeOuter] [class^=tags_],
 [class*=SizeOuter] [class^=root_],
@@ -39,7 +38,6 @@
 [class^=activityBiteSizePopout] [class^=textLeft] {
   text-align: left;
 }
-/* fullSizeOuter */
 [class*=SizeOuter] [class^=tabBar],
 [class*=SizeOuter] [class^=memberSinceWrapper] {
   justify-content: center;
@@ -51,6 +49,9 @@
 }
 [class^=fullSizeOuter] [class^=activitySimplifiedProfile] [class^=defaultColor] {
   text-align: left;
+}
+[class*=SizeOuter] section [class^=list] {
+  justify-content: center;
 }
 /* User Panel */ 
 [class^=userPanelOuter] [class^=usernameRow],
