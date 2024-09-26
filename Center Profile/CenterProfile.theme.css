@@ -34,7 +34,7 @@
   text-align: center;
 }
 [class*=SizeOuter] [class^=viewFullBio] {
-  left: 9.5vh;
+  margin: 12px auto 0px;
 }
 [class^=activityBiteSizePopout] [class^=textLeft] {
   text-align: left;
