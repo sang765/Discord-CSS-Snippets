@@ -11,7 +11,6 @@
 ## CSS Code:
 ```css
 /* Center Profile On Simplified Profile */
-/* biteSizeOuter */
 [class*=SizeOuter] [class^=usernameRow],
 [class*=SizeOuter] [class^=tags_],
 [class*=SizeOuter] [class^=root_],
@@ -22,10 +21,16 @@
 [class^=biteSizeOuter_] [class^=activityBiteSizePopout_] [class^=headerContainer_],
 [class^=biteSizeOuter_] [class^=activityBiteSizePopout_] [class^=details_],
 [class*=SizeOuter] [class^=blockquoteContainer]:has([class^=blockquoteDivider]),
-[class^=biteSizeOuter] [role=group] /*Badges*/{
+[class^=biteSizeOuter] [role=group], /*Badges*/
+[class*=SizeOuter] [class^=tabBar],
+[class*=SizeOuter] [class^=memberSinceWrapper],
+[class*=SizeOuter] section [class^=list],
+[class^=userPanelOuter] [class^=usernameRow],
+[class^=userPanelOuter] [class^=tags_] {
   justify-content: center;
 }
-[class*=SizeOuter] [class^=nicknameIcons] {
+[class*=SizeOuter] [class^=nicknameIcons],
+[class^=userPanelOuter] [class^=nicknameIcons] {
   display: none;
 }
 [class*=SizeOuter] [class^=chipletContainerInner] {
@@ -33,37 +38,18 @@
 }
 [class*=SizeOuter] [class^=descriptionClamp],
 [class*=SizeOuter] [class^=container] [class^=defaultColor],
-[class^=biteSizeOuter_] [class^=activityBiteSizePopout_] {
+[class^=biteSizeOuter_] [class^=activityBiteSizePopout_],
+[class*=SizeOuter] [class^=markup],
+[class*=SizeOuter] [class^=section] [class*=defaultColor],
+[class*=SizeOuter] textarea,
+[class^=userPanelOuter] [class^=overlayBackground] [class^=section] {
   text-align: center;
 }
 [class*=SizeOuter] [class^=viewFullBio] {
   margin: 12px auto 0px;
 }
-[class^=activityBiteSizePopout] [class^=textLeft] {
-  text-align: left;
-}
-/* fullSizeOuter */
-[class*=SizeOuter] [class^=tabBar],
-[class*=SizeOuter] [class^=memberSinceWrapper] {
-  justify-content: center;
-}
-[class*=SizeOuter] [class^=markup],
-[class*=SizeOuter] [class^=section] [class*=defaultColor],
-[class*=SizeOuter] textarea {
-  text-align: center;
-}
+[class^=activityBiteSizePopout] [class^=textLeft],
 [class^=fullSizeOuter] [class^=activitySimplifiedProfile] [class^=defaultColor] {
   text-align: left;
-}
-/* User Panel */ 
-[class^=userPanelOuter] [class^=usernameRow],
-[class^=userPanelOuter] [class^=tags_] {
-  justify-content: center;
-}
-[class^=userPanelOuter] [class^=overlayBackground] [class^=section] {
-  text-align: center;
-}
-[class^=userPanelOuter] [class^=nicknameIcons] {
-  display: none;
 }
 ```
