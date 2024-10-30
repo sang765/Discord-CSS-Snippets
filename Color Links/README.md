@@ -93,4 +93,8 @@ Added some color link for Discord
 [href*="deviantart.com"] {
   color: #00e59b!important;
 }
+/* Streamable */
+[href*="streamable.com"] {
+  color: #3394FD !important;
+}
 ```
