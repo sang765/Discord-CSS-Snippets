@@ -8,44 +8,44 @@
  */
 
 /* Center Profile On Simplified Profile */
-[class*=Size] [class^=usernameRow],
-[class*=Size] [class^=tags_],
-[class*=Size] [class^=root_],
-[class*=Size] [class^=body] [style^=gap],
-[class*=Size] [class^=mutuals_],
-[class*=Size] [class^=chipletContainerInner],
-[class*=Size] [class^=container] [class^=buttonContainer],
-[class^=biteSize_] [class^=activityBiteSizePopout_] [class^=headerContainer_],
-[class^=biteSize_] [class^=activityBiteSizePopout_] [class^=details_],
-[class*=Size] [class^=blockquoteContainer]:has([class^=blockquoteDivider]),
-[class^=biteSize] [role=group], /*Badges*/
-[class*=Size] [class^=tabBar],
-[class*=Size] [class^=memberSinceWrapper],
-[class*=Size] section [class^=list],
+[class^=outer] [class^=usernameRow],
+[class^=outer] [class^=tags_],
+[class^=outer] [class^=root_],
+[class^=outer] [class^=body] [style^=gap],
+[class^=outer] [class^=mutuals_],
+[class^=outer] [class^=chipletContainerInner],
+[class^=outer] [class^=container] [class^=buttonContainer],
+[class^=biteOuter_] [class^=activityBiteOuterPopout_] [class^=headerContainer_],
+[class^=biteOuter_] [class^=activityBiteOuterPopout_] [class^=details_],
+[class^=outer] [class^=blockquoteContainer]:has([class^=blockquoteDivider]),
+[class^=biteOuter] [role=group], /*Badges*/
+[class^=outer] [class^=tabBar],
+[class^=outer] [class^=memberSinceWrapper],
+[class^=outer] section [class^=list],
 [class^=userPanelOuter] [class^=usernameRow],
 [class^=userPanelOuter] [class^=tags_] {
   justify-content: center;
 }
-[class*=Size] [class^=nicknameIcons],
+[class^=outer] [class^=nicknameIcons],
 [class^=userPanelOuter] [class^=nicknameIcons] {
   display: none;
 }
-[class*=Size] [class^=chipletContainerInner] {
+[class^=outer] [class^=chipletContainerInner] {
   display: flex;
 }
-[class*=Size] [class^=descriptionClamp],
-[class*=Size] [class^=container] [class^=defaultColor],
-[class^=biteSize_] [class^=activityBiteSizePopout_],
-[class*=Size] [class^=markup],
-[class*=Size] [class^=section] [class*=defaultColor],
-[class*=Size] textarea,
+[class^=outer] [class^=descriptionClamp],
+[class^=outer] [class^=container] [class^=defaultColor],
+[class^=biteOuter_] [class^=activityBiteOuterPopout_],
+[class^=outer] [class^=markup],
+[class^=outer] [class^=section] [class*=defaultColor],
+[class^=outer] textarea,
 [class^=userPanelOuter] [class^=overlayBackground] [class^=section] {
   text-align: center;
 }
-[class*=Size] [class^=viewFullBio] {
+[class^=outer] [class^=viewFullBio] {
   margin: 12px auto 0px;
 }
-[class^=activityBiteSizePopout] [class^=textLeft],
-[class^=fullSize] [class^=activitySimplifiedProfile] [class^=defaultColor] {
+[class^=activityBiteOuterPopout] [class^=textLeft],
+[class^=fullOuter] [class^=activitySimplifiedProfile] [class^=defaultColor] {
   text-align: left;
 }
