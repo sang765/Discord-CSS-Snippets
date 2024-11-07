@@ -11,45 +11,46 @@
 ## CSS Code:
 ```css
 /* Center Profile On Simplified Profile */
-[class*=SizeOuter] [class^=usernameRow],
-[class*=SizeOuter] [class^=tags_],
-[class*=SizeOuter] [class^=root_],
-[class*=SizeOuter] [class^=body] [style^=gap],
-[class*=SizeOuter] [class^=mutuals_],
-[class*=SizeOuter] [class^=chipletContainerInner],
-[class*=SizeOuter] [class^=container] [class^=buttonContainer],
-[class^=biteSizeOuter_] [class^=activityBiteSizePopout_] [class^=headerContainer_],
-[class^=biteSizeOuter_] [class^=activityBiteSizePopout_] [class^=details_],
-[class*=SizeOuter] [class^=blockquoteContainer]:has([class^=blockquoteDivider]),
-[class^=biteSizeOuter] [role=group], /*Badges*/
-[class*=SizeOuter] [class^=tabBar],
-[class*=SizeOuter] [class^=memberSinceWrapper],
-[class*=SizeOuter] section [class^=list],
+/* Center Profile On Simplified Profile */
+[class*=Size] [class^=usernameRow],
+[class*=Size] [class^=tags_],
+[class*=Size] [class^=root_],
+[class*=Size] [class^=body] [style^=gap],
+[class*=Size] [class^=mutuals_],
+[class*=Size] [class^=chipletContainerInner],
+[class*=Size] [class^=container] [class^=buttonContainer],
+[class^=biteSize_] [class^=activityBiteSizePopout_] [class^=headerContainer_],
+[class^=biteSize_] [class^=activityBiteSizePopout_] [class^=details_],
+[class*=Size] [class^=blockquoteContainer]:has([class^=blockquoteDivider]),
+[class^=biteSize] [role=group], /*Badges*/
+[class*=Size] [class^=tabBar],
+[class*=Size] [class^=memberSinceWrapper],
+[class*=Size] section [class^=list],
 [class^=userPanelOuter] [class^=usernameRow],
 [class^=userPanelOuter] [class^=tags_] {
   justify-content: center;
 }
-[class*=SizeOuter] [class^=nicknameIcons],
+[class*=Size] [class^=nicknameIcons],
 [class^=userPanelOuter] [class^=nicknameIcons] {
   display: none;
 }
-[class*=SizeOuter] [class^=chipletContainerInner] {
+[class*=Size] [class^=chipletContainerInner] {
   display: flex;
 }
-[class*=SizeOuter] [class^=descriptionClamp],
-[class*=SizeOuter] [class^=container] [class^=defaultColor],
-[class^=biteSizeOuter_] [class^=activityBiteSizePopout_],
-[class*=SizeOuter] [class^=markup],
-[class*=SizeOuter] [class^=section] [class*=defaultColor],
-[class*=SizeOuter] textarea,
+[class*=Size] [class^=descriptionClamp],
+[class*=Size] [class^=container] [class^=defaultColor],
+[class^=biteSize_] [class^=activityBiteSizePopout_],
+[class*=Size] [class^=markup],
+[class*=Size] [class^=section] [class*=defaultColor],
+[class*=Size] textarea,
 [class^=userPanelOuter] [class^=overlayBackground] [class^=section] {
   text-align: center;
 }
-[class*=SizeOuter] [class^=viewFullBio] {
+[class*=Size] [class^=viewFullBio] {
   margin: 12px auto 0px;
 }
 [class^=activityBiteSizePopout] [class^=textLeft],
-[class^=fullSizeOuter] [class^=activitySimplifiedProfile] [class^=defaultColor] {
+[class^=fullSize] [class^=activitySimplifiedProfile] [class^=defaultColor] {
   text-align: left;
 }
 ```
