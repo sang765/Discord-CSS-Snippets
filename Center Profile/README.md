@@ -57,7 +57,7 @@
 	left: 36.5%;
 }
 [class^=outer] [class^=wrapper][class*=biteSize] {
-	right: 24.5%;
+	right: 24.7%;
 }
 [class^=outer] [class^=wrapper][class*=biteSize]:not(:has([d="M4 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm10-2a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm8 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"])) {
 	right: 12px;
