@@ -11,7 +11,6 @@
 ## CSS Code:
 ```css
 /* Center Profile On Simplified Profile */
-/* Center Profile On Simplified Profile */
 [class^=outer] [class^=usernameRow],
 [class^=outer] [class^=tags_],
 [class^=outer] [class^=root_],
