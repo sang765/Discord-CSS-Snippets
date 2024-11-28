@@ -66,4 +66,14 @@
 [class^=outer] [class^=wrapper][class*=biteSize]:has(:nth-child(3):last-child) {
 	right: 31.5%;
 }
+[class^=outer]:has([class*=biteSize]) [class^=addCustomStatusButtonBubble] [class^=statusBubbleOuter]::after,
+[class^=outer]:has([class*=biteSize]) [class^=addCustomStatusButtonBubble] [class^=statusBubbleOuter]::before {
+	display: none;
+}
+[class^=outer]:has([class*=biteSize]) [class^=addCustomStatusButtonBubble] {
+	top: 30px;
+	margin-top: 10px;
+    	left: 85px;
+	margin-bottom: 25px;
+}
 ```
