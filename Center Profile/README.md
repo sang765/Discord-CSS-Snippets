@@ -52,7 +52,7 @@
 [class^=fullOuter] [class^=activitySimplifiedProfile] [class^=defaultColor] {
   text-align: left;
 }
-[class^=outer]:not(:has([class^="visibleContainer"])) [class*="clickable"] {
+[class^=outer]:not(:has([class^="visibleContainer"])) [class^=avatar][class*="clickable"] {
 	left: 36.5%;
 }
 [class^=outer] [class^=wrapper][class*=biteSize]:has(:nth-child(4)) {
@@ -75,5 +75,10 @@
 	margin-top: 10px;
     	left: 85px;
 	margin-bottom: 25px;
+}
+[class^=avatar] foreignObject[mask*="url(#"],
+[class^=mask] foreignObject[mask*="url(#"],
+[class^=avatar] foreignObject[mask*="url(#"] circle {
+   	mask: none;
 }
 ```
