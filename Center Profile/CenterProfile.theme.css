@@ -74,9 +74,7 @@
     	left: 85px;
 	margin-bottom: 25px;
 }
-[class^=avatar] foreignObject[mask*="url(#"],
-[class^=mask] foreignObject[mask*="url(#"],
-[class^=avatar] foreignObject[mask*="url(#"] circle {
+[class^=mask] foreignObject[mask*="url(#"] {
    	mask: none;
 }
 [class^=avatar] {
