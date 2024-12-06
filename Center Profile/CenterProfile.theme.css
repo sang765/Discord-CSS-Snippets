@@ -79,3 +79,6 @@
 [class^=avatar] foreignObject[mask*="url(#"] circle {
    	mask: none;
 }
+[class^=avatar] {
+	border-radius: var(--radius-round);
+}
