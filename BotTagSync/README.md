@@ -10,7 +10,7 @@
 ## CSS Code:
 ```css
 /*Bot Tag Sync Background*/
-[class*="userProfileOuterThemed"] [class*="botTag_"] {
+[class*="custom-profile-theme"] [class*="botTag_"] {
   background-color: var(--profile-gradient-button-color);
 }
 ```
