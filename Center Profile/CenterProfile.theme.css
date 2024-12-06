@@ -50,7 +50,7 @@
 [class^=fullOuter] [class^=activitySimplifiedProfile] [class^=defaultColor] {
   text-align: left;
 }
-[class^=outer]:not(:has([class^="visibleContainer"])) [class*="clickable"] {
+[class^=outer]:not(:has([class^="visibleContainer"])) [class^=avatar][class*="clickable"] {
 	left: 36.5%;
 }
 [class^=outer] [class^=wrapper][class*=biteSize]:has(:nth-child(4)) {
