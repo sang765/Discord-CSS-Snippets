@@ -9,6 +9,6 @@
  */
 
  /* Bot Tag Sync */
-[class*="userProfileOuterThemed"] [class*="botTag_"] {
+[class*="custom-profile-theme"] [class*="botTag_"] {
   background-color: var(--profile-gradient-button-color);
 }
