@@ -80,4 +80,11 @@
 [class^=outer] [class^='bannerSVGWrapper_'] > mask > circle {
 	display: none;
 }
+[class^=outer] [class^='mask_'] > foreignObject,
+[class^=outer] [class^='svg_'] > foreignObject {
+	mask-image: none;
+}
+[class^=outer] [class^=avatar_] [class^=wrapper] [class^=mask] {
+   	 border-radius: 50px !important;
+}
 ```
