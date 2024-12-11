@@ -71,10 +71,17 @@
 [class^=outer]:has([class*=biteSize]) [class^=addCustomStatusButtonBubble] {
 	top: 30px;
 	margin-top: 10px;
-    left: 92px;
+    	left: 92px;
 	margin-bottom: 25px;
 }
 [class^=outer] [class^='listItem_'] [class^='wrapper_'] > [class^='svg_'] > mask,
 [class^=outer] [class^='bannerSVGWrapper_'] > mask > circle {
 	display: none;
+}
+[class^=outer] [class^='mask_'] > foreignObject,
+[class^=outer] [class^='svg_'] > foreignObject {
+	mask-image: none;
+}
+[class^=outer] [class^=avatar_] [class^=wrapper] [class^=mask] {
+    border-radius: 50px !important;
 }
