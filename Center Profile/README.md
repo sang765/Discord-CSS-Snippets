@@ -73,12 +73,11 @@
 [class^=outer]:has([class*=biteSize]) [class^=addCustomStatusButtonBubble] {
 	top: 30px;
 	margin-top: 10px;
-    	left: 85px;
+    	left: 92px;
 	margin-bottom: 25px;
 }
-[class^=avatar] foreignObject[mask*="url(#"],
-[class^=mask] foreignObject[mask*="url(#"],
-[class^=avatar] foreignObject[mask*="url(#"] circle {
-   	mask: none;
+[class^=outer] [class^='listItem_'] [class^='wrapper_'] > [class^='svg_'] > mask,
+[class^=outer] [class^='bannerSVGWrapper_'] > mask > circle {
+	display: none;
 }
 ```
