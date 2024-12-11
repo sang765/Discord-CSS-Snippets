@@ -27,14 +27,14 @@
 [class^=outer] section [class^=list],
 [class^=userPanelOuter] [class^=usernameRow],
 [class^=userPanelOuter] [class^=tags_] {
-  justify-content: center;
+	justify-content: center;
 }
 [class^=outer] [class^=nicknameIcons],
 [class^=userPanelOuter] [class^=nicknameIcons] {
-  display: none;
+	display: none;
 }
 [class^=outer] [class^=chipletContainerInner] {
-  display: flex;
+	display: flex;
 }
 [class^=outer] [class^=descriptionClamp],
 [class^=outer] [class^=container] [class^=defaultColor],
@@ -43,14 +43,14 @@
 [class^=outer] [class^=section] [class*=defaultColor],
 [class^=outer] textarea,
 [class^=userPanelOuter] [class^=overlayBackground] [class^=section] {
-  text-align: center;
+	text-align: center;
 }
 [class^=outer] [class^=viewFullBio] {
-  margin: 12px auto 0px;
+	margin: 12px auto 0px;
 }
 [class^=activityBiteOuterPopout] [class^=textLeft],
 [class^=fullOuter] [class^=activitySimplifiedProfile] [class^=defaultColor] {
-  text-align: left;
+	text-align: left;
 }
 [class^=outer]:not(:has([class^="visibleContainer"])) [class^=avatar][class*="clickable"] {
 	left: 36.5%;
@@ -76,15 +76,10 @@
     	left: 92px;
 	margin-bottom: 25px;
 }
-[class^=outer] [class^='listItem_'] [class^='wrapper_'] > [class^='svg_'] > mask,
-[class^=outer] [class^='bannerSVGWrapper_'] > mask > circle {
-	display: none;
-}
-[class^=outer] [class^='mask_'] > foreignObject,
-[class^=outer] [class^='svg_'] > foreignObject {
+[class^='mask_'] > foreignObject {
 	mask-image: none;
 }
-[class^=outer] [class^=avatar_] [class^=wrapper] [class^=mask] {
-   	 border-radius: 50px !important;
+[mask^='url(#svg-mask-avatar-status'] [class^=avatarStack] img {
+	border-radius: 5px;
 }
 ```
