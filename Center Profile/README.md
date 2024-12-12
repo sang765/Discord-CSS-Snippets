@@ -79,7 +79,8 @@
 [class^='mask_'] > foreignObject {
 	mask-image: none;
 }
-[mask^='url(#svg-mask-avatar-status'] [class^=avatarStack] img {
-	border-radius: 5px;
+[class^=wrapper] [class^="mask_"] foreignObject [class^=avatarStack] img,
+[id^=chat-message] [class^=contents] [class^=avatar_] {
+	border-radius: 50px;
 }
 ```
