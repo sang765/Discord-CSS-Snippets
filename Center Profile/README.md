@@ -60,14 +60,14 @@
 [class^=outer]:has([class^="visibleContainer"]) [class^=wrapper][class*=biteSize]:has(:nth-child(4)) {
 	right: 12px;
 }
-[class^=outer] [class^=wrapper][class*=biteSize]:has(:nth-child(4)) {
-	right: 24.7%;
+[class^=outer]:not(:has([class^="visibleContainer"])) [class^=wrapper][class*=biteSize]:has(:nth-child(2):last-child) {
+	right: 38%;
 }
-[class^=outer] [class^=wrapper][class*=biteSize]:has(:nth-child(3):last-child) {
+[class^=outer]:not(:has([class^="visibleContainer"])) [class^=wrapper][class*=biteSize]:has(:nth-child(3):last-child) {
 	right: 31.5%;
 }
-[class^=outer]:not(:has([class^="visibleContainer"])) [class^=wrapper][class*=biteSize]:has(:nth-child(2)) {
-	right: 38%;
+[class^=outer]:not(:has([class^="visibleContainer"])) [class^=wrapper][class*=biteSize]:has(:nth-child(4):last-child) {
+	right: 24.7%;
 }
 [class^=outer]:has([class*=biteSize]) [class^=addCustomStatusButtonBubble] [class^=statusBubbleOuter]::after,
 [class^=outer]:has([class*=biteSize]) [class^=addCustomStatusButtonBubble] [class^=statusBubbleOuter]::before {
