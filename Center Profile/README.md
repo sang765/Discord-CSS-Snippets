@@ -48,7 +48,8 @@
 	margin: 12px auto 0px;
 }
 [class^=activityBiteOuterPopout] [class^=textLeft],
-[class^=fullOuter] [class^=activitySimplifiedProfile] [class^=defaultColor] {
+[class^=fullOuter] [class^=activitySimplifiedProfile] [class^=defaultColor],
+[class^=outer] [class^=section] [class*=defaultColor]:has([class^=voiceIcon]) {
 	text-align: left;
 }
 [class^=outer]:not(:has([class^="visibleContainer"])) [class^=avatar][class*="clickable"] {
