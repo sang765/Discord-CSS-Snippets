@@ -22,7 +22,6 @@
 [class^=biteOuter] [role=group], /*Badges*/
 [class^=outer] [class^=tabBar],
 [class^=outer] [class^=memberSinceWrapper],
-[class^=outer] section [class^=list],
 [class^=userPanelOuter] [class^=usernameRow],
 [class^=userPanelOuter] [class^=tags_] {
 	justify-content: center;
