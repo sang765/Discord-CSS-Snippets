@@ -25,7 +25,8 @@
 [class^=outer] [class^=tabBar],
 [class^=outer] [class^=memberSinceWrapper],
 [class^=userPanelOuter] [class^=usernameRow],
-[class^=userPanelOuter] [class^=tags_] {
+[class^=userPanelOuter] [class^=tags_],
+[class^=outer] [class^=section_] [class^=list_] {
 	justify-content: center;
 }
 [class^=outer] [class^=nicknameIcons],
