@@ -26,11 +26,13 @@
 [class^=outer] [class^=memberSinceWrapper],
 [class^=userPanelOuter] [class^=usernameRow],
 [class^=userPanelOuter] [class^=tags_],
-[class^=outer] [class^=section_] [class^=list_] {
+[class^=outer] [class^=section_] [class^=list_],
+[class^=outer] [class^=section_]:has([class^=connectedAccountContainer_]) [class^=connectedAccounts_] {
 	justify-content: center;
 }
 [class^=outer] [class^=nicknameIcons],
-[class^=userPanelOuter] [class^=nicknameIcons] {
+[class^=userPanelOuter] [class^=nicknameIcons],
+[class^=outer] [class^=connectedAccountsColumn_]:not(:has([class^=connectedAccountContainer_])){
 	display: none;
 }
 [class^=outer] [class^=chipletContainerInner] {
@@ -50,7 +52,7 @@
 }
 [class^=activityBiteOuterPopout] [class^=textLeft],
 [class^=fullOuter] [class^=activitySimplifiedProfile] [class^=defaultColor],
-[class^=outer] [class^=section] [class*=defaultColor]:has([class^=voiceIcon]) {
+[class^=outer] [class^=section] [class*=defaultColor]:has([class^=voiceIcon]){
 	text-align: left;
 }
 [class^=outer]:not(:has([class^="visibleContainer"])) [class^=avatar][class*="clickable"] {
