@@ -55,9 +55,6 @@
 [class^=outer] [class^=section] [class*=defaultColor]:has([class^=voiceIcon]){
 	text-align: left;
 }
-[class^=outer]:not(:has([class^="visibleContainer"])) [class^=avatar][class*="clickable"] {
-	left: 36.5%;
-}
 [class^=outer] [class^=footer]:has(button) [class^=wrapper][class*=biteSize]:has(:nth-child(1):last-child),
 [class^=outer]:has([class^="visibleContainer"]) [class^=wrapper][class*=biteSize]:has(:nth-child(3):last-child),
 [class^=outer]:has([class^="visibleContainer"]) [class^=wrapper][class*=biteSize]:has(:nth-child(4)) {
@@ -71,16 +68,6 @@
 }
 [class^=outer]:not(:has([class^="visibleContainer"])) [class^=wrapper][class*=biteSize]:has(:nth-child(4):last-child) {
 	right: 24.7%;
-}
-[class^=outer]:has([class*=biteSize]) [class^=addCustomStatusButtonBubble] [class^=statusBubbleOuter]::after,
-[class^=outer]:has([class*=biteSize]) [class^=addCustomStatusButtonBubble] [class^=statusBubbleOuter]::before {
-	display: none;
-}
-[class^=outer]:has([class*=biteSize]) [class^=addCustomStatusButtonBubble] {
-	top: 30px;
-	margin-top: 10px;
-    	left: 92px;
-	margin-bottom: 25px;
 }
 [class^='mask_'] > foreignObject {
 	mask-image: none;
