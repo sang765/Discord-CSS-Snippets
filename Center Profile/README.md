@@ -27,7 +27,8 @@
 [class^=userPanelOuter] [class^=usernameRow],
 [class^=userPanelOuter] [class^=tags_],
 [class^=outer] [class^=section_] [class^=list_],
-[class^=outer] [class^=section_]:has([class^=connectedAccountContainer_]) [class^=connectedAccounts_] {
+[class^=outer] [class^=section_]:has([class^=connectedAccountContainer_]) [class^=connectedAccounts_],
+[class^=outer] [class^=section] [class^=header] {
 	justify-content: center;
 }
 [class^=outer] [class^=nicknameIcons],
