@@ -10,19 +10,14 @@ Added some color link for Discord
 /* YouTube */
 [href*="youtu.be"],
 [href*="youtube.com"] {
-  color: #c4302b !important;
+  color: #ff0000 !important;
 }
 /* Twitch */
 [href*="twitch.tv"] {
   color: #b700ff !important;
 }
 /* Discord */
-[href*="discord.com/channels/"] {
-  color: #7289da !important;
-}
-[href*="discord.com/channels/"]::before {
-  color: #603cff;
-}
+[href*="discord.com/channels/"],
 [href*="betterdiscord.app/"],
 [href*="discord.gg/"],
 [href*="dsc.gg/"],
@@ -31,9 +26,9 @@ Added some color link for Discord
 [href*="cdn.discordapp.com/"] {
   color: #7289da !important;
 }
-/* Twitter */
-[href*="twitter.com/"] {
-  color: #00acee !important;
+/* X */
+[href*="x.com/"] {
+  color: #ffffff !important;
 }
 /* GitHub */
 [href*="github.com"] {
@@ -53,11 +48,13 @@ Added some color link for Discord
 /* Spotify */
 [href*="spotify.com"],
 [href*="open.spotify.com"] {
-  color: #13b94a !important;
+  color: #1ed760 !important;
 }
 /* SoundCloud */
 [href*="soundcloud.com"] {
-  color: #ff5500 !important;
+  background: -webkit-linear-gradient(#ff7603, #fe2f02);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /* Top.gg */
 [href*="top.gg"] {
@@ -83,7 +80,7 @@ Added some color link for Discord
 }
 /* Facebook */
 [href*="facebook.com"] {
-  color: #3b5998!important;
+  color: #0866ff!important;
 }
 /* Danbooru */
 [href*="danbooru.donmai.us"] {
