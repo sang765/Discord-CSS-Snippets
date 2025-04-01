@@ -57,20 +57,6 @@
 [class^=outer] [class^=section] [class*=defaultColor]:has([class^=voiceIcon]){
 	text-align: left;
 }
-[class^=outer] [class^=footer]:has(button) [class^=wrapper][class*=biteSize]:has(:nth-child(1):last-child),
-[class^=outer]:has([class^="visibleContainer"]) [class^=wrapper][class*=biteSize]:has(:nth-child(3):last-child),
-[class^=outer]:has([class^="visibleContainer"]) [class^=wrapper][class*=biteSize]:has(:nth-child(4)) {
-	right: 12px;
-}
-[class^=outer]:not(:has([class^="visibleContainer"])) [class^=wrapper][class*=biteSize]:has(:nth-child(2):last-child) {
-	right: 38%;
-}
-[class^=outer]:not(:has([class^="visibleContainer"])) [class^=wrapper][class*=biteSize]:has(:nth-child(3):last-child) {
-	right: 31.5%;
-}
-[class^=outer]:not(:has([class^="visibleContainer"])) [class^=wrapper][class*=biteSize]:has(:nth-child(4):last-child) {
-	right: 24.7%;
-}
 [class^='mask_'] > foreignObject {
 	mask-image: none;
 }
